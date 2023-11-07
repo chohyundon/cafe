@@ -1,0 +1,73 @@
+/* 기본세팅 */
+* {
+  margin: 0;
+}
+
+/* 기본 색상 */
+:root {
+  --black-color1: #000000;
+  --white-color1: #d9d9d9;
+  --white-color2: #ffffff;
+}
+
+/* 헤더영역 */
+.header {
+  background-color: var(--black-color1);
+  color: var(--white-color1);
+  height: 82px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+/* 헤더 로그인 */
+.sign-in,
+.sign-out {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+}
+
+/* 헤더 로고 */
+.logo {
+  float: left;
+  position: relative;
+  left: 350px;
+  top: 20px;
+}
+
+/* 헤더 search */
+.search {
+  float: right;
+  position: relative;
+  right: 30px;
+  top: 30px;
+}
+
+/* 헤더 nav바 영역 */
+.nav {
+  display: inline-block;
+  border: 1px solid;
+  display: flow-root;
+}
+
+.nav-container {
+  float: left;
+}
+
+.drink,
+.food,
+.products,
+.lectures {
+  float: left;
+  background-color: aqua;
+  padding-right: 100px;
+}
+
+.customer-service {
+  float: right;
+  background-color: aquamarine;
+}
