@@ -1,12 +1,8 @@
 {
-  "name": "webcafe",
-  "version": "1.0.0",
-  "description": "cafe",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "live-server --open=docs/ --port=8090 --host=localhost --mount=/:docs/"
   },
-  "keywords": [],
-  "author": "donny",
-  "license": "ISC"
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }
