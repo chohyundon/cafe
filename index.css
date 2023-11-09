@@ -17,7 +17,7 @@
   height: 82px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid white;
+  border-bottom: 1px solid var(--white-color1);
 }
 
 /* 헤더 로그인 */
@@ -35,7 +35,7 @@
 .logo {
   float: left;
   position: relative;
-  left: 350px;
+  left: 400px;
   top: 20px;
 }
 
@@ -43,7 +43,7 @@
 .search {
   float: right;
   position: relative;
-  right: 30px;
+  right: 130px;
   top: 30px;
 }
 
@@ -52,6 +52,9 @@
   display: inline-block;
   border: 1px solid;
   display: flow-root;
+  padding: 20px 20px;
+  background-color: var(--black-color1);
+  color: var(--white-color2);
 }
 
 .nav-container {
@@ -63,11 +66,11 @@
 .products,
 .lectures {
   float: left;
-  background-color: aqua;
   padding-right: 100px;
+  padding-left: 30px;
 }
 
 .customer-service {
   float: right;
-  background-color: aquamarine;
+  padding-left: 30px;
 }
